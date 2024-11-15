@@ -1,0 +1,14 @@
+
+p
+java:S1192q"NDefine a constant instead of duplicating this literal "Invalid Input" 4 times.(ÔĞúÿÿÿÿ8ŞÛëèĞ1
+™
+java:S1192q"wDefine a constant instead of duplicating this literal "Please enter valid numeric values for stock and price." 3 times.(ÔĞúÿÿÿÿ8ßÛëèĞ1
+W
+java:S1141H"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ÏøèĞ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šîï…ùÿÿÿÿ8áÛëèĞ1
+L	java:S106S"+Replace this use of System.err by a logger.(ÀÿÔæşÿÿÿÿ8æøèĞ1
+L	java:S106V"+Replace this use of System.err by a logger.(É‹÷¯ÿÿÿÿÿ8æøèĞ1
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ôøèĞ1
+Q
+java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8ôøèĞ1

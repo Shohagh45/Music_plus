@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="layout" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musicplus.Controllers.OptionsController">
+   <children>
+
+      <VBox prefHeight="500.0" prefWidth="177.0" spacing="10.0" style="-fx-background-color: #8dbdbb;">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="80.0" />
+         </padding>
+
+         <children>
+            <Button fx:id="dashboard" minWidth="84.0" onAction="#DashboardButtonClick" prefHeight="26.0" prefWidth="108.0" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="creatdeOrder" onAction="#OrderButtonClick" prefHeight="26.0" prefWidth="108.0" text="Create order">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="inventory" onAction="#InventoryButtonClick" prefHeight="26.0" prefWidth="108.0" text="Product inventory">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="oderHistory" onAction="#HistoryButtonClick" prefHeight="26.0" prefWidth="108.0" text="Order history">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+
+         </children>
+      </VBox>
+      <Label fx:id="username" style="-fx-font-size: 24px;" text="Username" /> <!-- Bigger font size -->
+      <Label fx:id="role" style="-fx-font-size: 20px;" text="Role" />
+   </children>
+</HBox>

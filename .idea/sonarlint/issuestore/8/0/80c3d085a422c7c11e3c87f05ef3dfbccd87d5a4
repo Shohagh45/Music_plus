@@ -1,0 +1,18 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šîï…ùÿÿÿÿ
+n	java:S116"TRename this field "FirstName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¦ı¯ûÿÿÿÿ
+h	java:S116 "SRename this field "LastName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿³½
+e	java:S116""PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¦”Ğ
+k	java:S116$"VRename this field "PhoneNumber" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‡ÙÉ
+T
+java:S1854Q"9Remove this useless assignment to local variable "email".(£­ô¸ÿÿÿÿÿ
+Z
+java:S1854R"?Remove this useless assignment to local variable "phoneNumber".(Å…¯íüÿÿÿÿ
+E
+java:S1481Q"*Remove this unused "email" local variable.(£­ô¸ÿÿÿÿÿ
+K
+java:S1481R"0Remove this unused "phoneNumber" local variable.(Å…¯íüÿÿÿÿ
+B
+java:S1172d",Remove this unused method parameter "order".(Ûë‘•
+J
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ

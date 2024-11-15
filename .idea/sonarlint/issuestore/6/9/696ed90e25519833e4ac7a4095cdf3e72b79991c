@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šîï…ùÿÿÿÿ
+g	java:S116"SRename this field "UserName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èì¢r
+h	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óà’×
+U
+java:S1128"?Remove this unused import 'javafx.scene.control.PasswordField'.(êú´Ë
+N
+java:S11440"3Remove this unused private "showLoginError" method.(Ÿ…Ôµûÿÿÿÿ

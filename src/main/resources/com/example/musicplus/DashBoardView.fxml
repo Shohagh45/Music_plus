@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #8dbdbb;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox>
+      <Label fx:id="dateAndtime" layoutX="56.0" layoutY="137.0" text="It is now 04-11-2023 12:00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="userName" layoutX="54.0" layoutY="48.0" prefHeight="47.0" prefWidth="146.0" text="Welcome">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="role" layoutX="56.0" layoutY="103.0" text="Your role is ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="RoleLabel" layoutX="151.0" layoutY="105.0" prefHeight="27.0" prefWidth="66.0" text="Label" />
+      <Label fx:id="NameLabel" layoutX="194.0" layoutY="48.0" prefHeight="23.0" prefWidth="155.0">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+   </VBox>
+   <TableView fx:id="lowStockTableView">
+      <columns>
+         <TableColumn fx:id="productNameColumn" text="Name" />
+         <TableColumn fx:id="productStockColumn" text="Stock" />
+      </columns>
+   </TableView>
+</HBox>

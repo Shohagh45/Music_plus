@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="543.0" style="-fx-background-color: #8dbdbb;" styleClass="#00008B" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musicplus.Controllers.LoginController">
+
+
+   <Label fx:id="lbl_Username" layoutX="164.0" layoutY="111.0" text="Username" />
+  <Label fx:id="lbl_Password" layoutX="164.0" layoutY="179.0" text="Password" />
+   <TextField fx:id="UserName" layoutX="165.0" layoutY="136.0" />
+   <TextField fx:id="Password" layoutX="164.0" layoutY="205.0" />
+   <Button fx:id="btn_Login" layoutX="166.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" text="Login" />
+   <Label fx:id="messageBox" layoutX="166.0" layoutY="44.0" prefHeight="18.0" prefWidth="150.0" />
+   <Label layoutX="135.0" layoutY="21.0" prefHeight="74.0" prefWidth="254.0" text="Music Plus">
+      <font>
+         <Font size="50.0" />
+      </font>
+   </Label>
+</AnchorPane>

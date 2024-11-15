@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šîï…ùÿÿÿÿ
+k
+java:S1450"URemove the "orders" field and declare it as a local variable in the relevant methods.(®½Â´
+T
+java:S1128">Remove this unused import 'javafx.beans.value.ChangeListener'.(¸÷Í
+U
+java:S1128"?Remove this unused import 'javafx.beans.value.ObservableValue'.(´œ«Å
+G
+java:S1068"1Remove this unused "selectedOrder" private field.(‹ºĞ

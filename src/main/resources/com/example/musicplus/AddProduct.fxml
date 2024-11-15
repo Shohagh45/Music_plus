@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox prefHeight="400.0" prefWidth="632.0" style="-fx-background-color: #8dbdbb;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musicplus.Controllers.AddProductController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <VBox>
+            <children>
+                <Label style="-fx-font-size: 28;" text="Select Products" />
+                <TableView fx:id="inventoryTableView">
+                    <columns>
+                        <TableColumn minWidth="50" text="stock">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="stock" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn minWidth="150" text="Name">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="name" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn minWidth="100" text="Catagory">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="category" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn minWidth="50" text="Price">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="price" />
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="ProductDescriptionColumn" minWidth="200" text="Description">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="description" />
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+                <HBox prefHeight="60.0" prefWidth="477.0" spacing="10.0">
+                    <children>
+                        <Label prefHeight="18.0" prefWidth="106.0" style="-fx-font-size: 20;" text="Quantity" />
+                        <TextField fx:id="productQuantity" promptText="Product stock" />
+                        <Button onAction="#addProductToOrder" text="Add to order">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                        <Button onAction="#cancelOrder" text="Cancel">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                    </children>
+                    <padding>
+                        <Insets top="20.0" />
+                    </padding>
+                </HBox>
+            </children>
+
+        </VBox>
+    </children>
+</HBox>
