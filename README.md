@@ -1,4 +1,4 @@
-### GitHub Repository Description
+## GitHub Repository Description
 
 **MusicPlus: A Comprehensive Music Store Management System**
 
